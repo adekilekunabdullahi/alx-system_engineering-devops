@@ -1,2 +1,2 @@
 #!/bin/bash
-printenv PATH | wc -w
+printenv PATH | less \n | wc -l 
