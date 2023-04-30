@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+#This script print "Hello world 10 times"
+i=0
+until ((i > 9))
+do
+	echo "Best School"
+	((i++))
+done
