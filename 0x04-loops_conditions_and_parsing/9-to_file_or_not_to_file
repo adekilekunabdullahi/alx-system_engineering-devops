@@ -10,6 +10,8 @@ if [ -e "$file" ]; then
 	fi
 	if [ -f "$file" ]; then
 		echo "school is a regular file"
+	else
+		echo "(nothing)"
 	fi
 else
 	echo "school file does not exit"
