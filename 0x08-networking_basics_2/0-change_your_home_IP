@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script to change localhost ip address
+
+cp /etc/hosts ~/hosts.new
+    # Replace the existing entry
+sed -i 's/127\.0\.0\.1/127.0.0.2/g' ~/hosts.new
+    # Append the entry to /etc/hosts
+echo -e "8.8.8.8\tfacebook.com" >> ~/hosts.new
+cp ~/hosts.new /etc/hosts
