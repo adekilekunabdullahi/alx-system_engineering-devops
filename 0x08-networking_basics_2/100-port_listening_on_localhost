@@ -1,0 +1,5 @@
+#!/usr/bin/env bash
+# listening for connection on port 98
+
+port=98
+nc -l -p "$port"
