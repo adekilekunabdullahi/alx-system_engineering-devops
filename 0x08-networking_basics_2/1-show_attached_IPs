@@ -2,4 +2,3 @@
 # displaying all active ipv4 ip addresses on a computer
 
 ifconfig | grep -oP 'inet\s+\K[\d.]+'
-
